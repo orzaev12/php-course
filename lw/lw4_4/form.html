@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h3>Форма ввода данных</h3>
+<form action="newuser.php" method="POST">
+    <p>Фамилия: <input type="text" name="first_name" required/></p>
+    <p>Имя: <input type="text" name="last_name" required/></p>
+    <p>Отчество: <input type="text" name="middle_name" /></p>
+    <p>Пол: 
+        <input type="radio" name="gender" value="мужской" required/> Мужской <br>
+        <input type="radio" name="gender" value="женский" required/> Женский <br>
+    </select>
+    </p>
+    <p>Дата рождения: <input type="date" id="date" name="birthdate" required/></p>
+    <p>Email: <input type="email" name="email" required/></p>
+    <p>Телефон: <input type="tel" name="phone" /></p>
+    <p>Аватар: <input type="file" name="avatar" size="10" /><br /><br /></p>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
